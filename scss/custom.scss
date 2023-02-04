@@ -1,0 +1,17 @@
+$body-bg:rgb(27, 27, 27);
+$body-color:white;
+
+.navbar-collapse{
+    justify-content: flex-end
+}
+.nav-item{
+    margin: auto 10px;
+}
+.main{
+    background:  black url(../assets/building.jpg);
+    background-size: cover;
+}
+.card-body{
+    background-color: grey;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
